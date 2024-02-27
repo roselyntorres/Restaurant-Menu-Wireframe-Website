@@ -1,0 +1,47 @@
+
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color:#70aac6;
+    font-weight:700;
+    text-decoration: none;
+    margin-left:40px;
+ }
+ 
+ .navbar a :before{
+     content:'';
+     position: absolute;
+     top:100% ;
+     width:0;
+     left:0;
+     height:2px;
+     background: #5394b2;
+
+ }
+ .dot {
+    margin: auto;
+    position: center;
+    height: 60px;
+    width: 60px;
+    background-color: #3b6d84;
+    border-radius: 50%;
+    display: inline-block;
+  }
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: #3b6d84;
+  }

@@ -1,0 +1,36 @@
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color:black;
+    font-weight:500;
+    text-decoration: none;
+    margin-left:40px;
+background: #59809b;
+ }
+ 
+ .navbar a :before{
+     content:'';
+     position: absolute;
+     top:100% ;
+     width:0;
+     left:0;
+     height:2px;
+     background: #59809b;
+ transition:.3s;
+ }
+ .navbar a:hover: :before{
+     width
+ }
+ 
+ .header{
+    font-family: 'Times New Roman', Times, serif;
+ }
+ body
+{
+    background-color: rgb(253, 254, 255);
+}
+[class^="col"] {
+    max-height: 100px;
+    border: 2px solid rgb(53, 109, 134);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
