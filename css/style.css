@@ -22,8 +22,8 @@
  .dot {
     margin: auto;
     position: center;
-    height: 60px;
-    width: 60px;
+    height: 150px;
+    width: 150px;
     background-color: #3b6d84;
     border-radius: 50%;
     display: inline-block;
